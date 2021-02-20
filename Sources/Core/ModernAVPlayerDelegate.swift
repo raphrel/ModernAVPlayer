@@ -26,7 +26,7 @@
 
 import Foundation
 
-public protocol ModernAVPlayerDelegate: class {
+public protocol ModernAVPlayerDelegate: AnyObject {
     ///
     /// Trigged when player's state changed
     /// - parameters:

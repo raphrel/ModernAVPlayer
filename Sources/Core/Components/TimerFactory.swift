@@ -26,7 +26,7 @@
 
 import Foundation
 
-protocol CustomTimer: class {
+protocol CustomTimer: AnyObject {
     func fire()
     func invalidate()
 }

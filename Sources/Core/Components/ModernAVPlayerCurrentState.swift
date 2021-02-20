@@ -26,6 +26,6 @@
 
 import Foundation
 
-public protocol ModernAVPlayerCurrentState: class {
+public protocol ModernAVPlayerCurrentState: AnyObject {
     var state: ModernAVPlayer.State { get }
 }

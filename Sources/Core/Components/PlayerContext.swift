@@ -28,7 +28,7 @@ import AVFoundation
 import UIKit
 
 //sourcery: AutoMockable
-protocol PlayerContextDelegate: class {
+protocol PlayerContextDelegate: AnyObject {
     func playerContext(didStateChange state: ModernAVPlayer.State)
     func playerContext(didCurrentMediaChange media: PlayerMedia?)
     func playerContext(didCurrentTimeChange currentTime: Double)
